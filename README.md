@@ -59,25 +59,20 @@ The following are the major dependencies that have been used in this project:
 
 ## Run Locally
 
-1.Clone this repository to your local machine.
 
-```bash
-  git clone https://github.com/shinoj-exe/social-network.git
-```
-
-2.Go to the project directory
+1.Go to the project directory
 
 ```bash
   cd SOCIAL-NETWORK
 ```
 
-3.Install the dependencies for both the client and server side.
+2.Install the dependencies for both the client and server side.
 
 ```bash
   npm install
 ```
 
-4.Create a .env file in the server directory and set the following environment variables:
+3.Create a .env file in the server directory and set the following environment variables:
 
 ```bash
   MONGO_URL=<your_mongodb_url>
@@ -86,13 +81,13 @@ The following are the major dependencies that have been used in this project:
 ```
 
 
-5.Start the backend development server.
+4.Start the backend development server.
 
 ```bash
   cd server && nodemon index.js
 ```
 
-6.Open another terminal window and start the client.
+5.Open another terminal window and start the client.
 ```bash
   cd frontend && npm start
 ```
